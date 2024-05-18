@@ -1,7 +1,8 @@
 <script>
-  import ContentAds from './ContentAds.svelte';
-  import LatestNews from './LatestNews.svelte';
   import Navigation from './Nav.svelte';
+  import LatestNews from './LatestNews.svelte';
+  import LatestReviews from './LatestReviews.svelte';
+  import ContentAds from './ContentAds.svelte';
 
   export let data;
 
@@ -23,6 +24,18 @@
     </div>
     <div>
         <LatestNews {data} />
+
+        <LatestReviews {data} />
+
+        <h3>Old nav</h3>
+        <ul>
+            <li><a href="https://vms.hr/scarskin/index.php">Novosti</a></li>
+            <li><a href="https://vms.hr/scarskin/hr/glazba/index.php">Glazba</a></li>
+            <li><a href="https://vms.hr/scarskin/hr/dogadaji/index.php">Dogadaji</a></li>
+            <li><a href="https://vms.hr/scarskin/hr/film/index.php">Film</a></li>
+            <li><a href="https://vms.hr/scarskin/hr/razgovor/index.php">Razgovor</a></li>
+            <li><a href="https://vms.hr/scarskin/hr/isplata.htm">Jel' se isplatilo?</a></li>
+        </ul>
     </div>
 </div>
 
