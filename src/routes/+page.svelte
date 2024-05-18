@@ -14,5 +14,13 @@
   <div>{@html n.content_text}</div>
   <div>Article ID: {n.content_id}</div>
   </article>
+  <ul>
+    {#each n.content_tags as ct}
+      {#each ct.tags as tag}
+        <li>{tag.tag_name}</li>
+      {/each}
+    {/each}
+  </ul>
+
   <hr/>
 {/each}

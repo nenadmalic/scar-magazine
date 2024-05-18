@@ -1,6 +1,7 @@
 <script>
   export let data;
   const ads = data.props.ads;
+  
 </script>
 
 {#each ads as item (item.content_id)}
@@ -16,7 +17,6 @@
     {item.content_title}
   </div>
 {/each}
-
 
 <!-- // static version of the content ad //
 
