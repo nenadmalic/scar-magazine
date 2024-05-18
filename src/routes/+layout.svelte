@@ -1,14 +1,29 @@
 <script>
+<<<<<<< HEAD
   import Navigation from './Nav.svelte';
   import ContentLatestNews from './ContentLatestNews.svelte';
   import ContentAds from './ContentAds.svelte';
+=======
+  import ContentAds from './ContentAds.svelte';
+  import ContentLatestNews from './ContentLatestNews.svelte';
+>>>>>>> 2e0df89 (First commit.)
 
   export let data;
 
   const ads = data.props.ads;  
 </script>
 
+<<<<<<< HEAD
 <Navigation />
+=======
+<nav>
+	<a href="/">home</a>
+    <a href="/">music</a>
+	<a href="/">about</a>
+    <a href="/">admin</a>
+    <a href="/">submit</a>
+</nav>
+>>>>>>> 2e0df89 (First commit.)
 
 <div class="layoutGrid">
     <div>
