@@ -26,7 +26,7 @@ export type Ads = {
     content_add_audio_title: string;
     content_sef_url: string;
 }
-export type latestNews = {
+export type LatestNews = {
     content_id: number;
     content_title: string;
     content_published_at: string;
@@ -34,7 +34,7 @@ export type latestNews = {
     content_category: string;
     content_sef_url: string;
 }
-export type latestReviews = {
+export type LatestReviews = {
     content_id: number;
     content_title: string;
     content_published_at: string;

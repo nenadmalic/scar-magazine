@@ -1,5 +1,5 @@
 import { supabase } from "$lib/server/db/supabaseClient.js";
-import type { News, Ads, frontpageLatestNews, frontpageLatestReviews } from './types.ts';
+import type { News, Ads, LatestNews, LatestReviews } from './types.ts';
 
 export async function getContentAds(): Promise<Ads[]> {
     const { data, error } = await supabase
@@ -41,7 +41,7 @@ export async function getContentCategoryNews(): Promise<News[]> {
     console.log('Fetched data from Supabase:', data);
     return data as News[];
 }
-export async function getLatestNews(): Promise<latestNews[]> {
+export async function getLatestNews(): Promise<LatestNews[]> {
     const { data, error } = await supabase
         .from("content")
         .select("content_id, content_title, content_published_at, content_text, content_category, content_sef_url")
@@ -54,10 +54,10 @@ export async function getLatestNews(): Promise<latestNews[]> {
         return [];
     }
 
-    return data as latestNews[];
+    return data as LatestNews[];
 }
 
-export async function getLatestReviews(): Promise<latestReviews[]> {
+export async function getLatestReviews(): Promise<LatestReviews[]> {
     const { data, error } = await supabase
         .from("content")
         .select("content_id, content_title, content_published_at, content_text, content_category, content_sef_url")
@@ -70,5 +70,5 @@ export async function getLatestReviews(): Promise<latestReviews[]> {
         return [];
     }
 
-    return data as latestReviews[];
+    return data as LatestReviews[];
 }
