@@ -31,4 +31,9 @@
         text-decoration: none; /* Remove underline from links */
         color: inherit; /* Use the same color as the surrounding text */
     }
+    @media (max-width: 768px) {
+        nav {
+            font-size:1rem;
+        }
+    }
 </style>
