@@ -1,5 +1,6 @@
 <script>
   import Navigation from './Nav.svelte';
+  import Slider from './Slider.svelte';
   import LatestNews from './LatestNews.svelte';
   import LatestReviews from './LatestReviews.svelte';
   import ContentAds from './ContentAds.svelte';
@@ -10,6 +11,8 @@
 </script>
 
 <Navigation />
+<Slider />
+
 
 <div class="layoutGrid">
     <div>
@@ -48,12 +51,38 @@
     Old layout was 200px x 360px x 300px, with central column padding: 0 120px 0 20px.
     Total width was 1000px, i.e 20% 50% 30%
 */
+:global(html) {
+  font-size: 16px; /* Base font size */
+}
+
+:global(body) {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 320px) {
+  :global(html) {
+    font-size: 10px; /* Smaller font size for very small screens */
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  :global(html) {
+    font-size: 10px; /* Slightly larger font size for small to medium screens */
+  }
+}
+
+@media screen and (min-width: 769px) {
+  :global(html) {
+    font-size: 16px; /* Original font size for larger screens */
+  }
+}
 
 .layoutGrid {
         display: grid;
         grid-template-columns: 20% 50% 30%;
         /* column-gap: 10px; */
         padding:0;
+        font-size: 1rem;
         }
 
     .layoutGrid > div:nth-of-type(2) {
