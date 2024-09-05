@@ -1,6 +1,7 @@
 <script>
   import Navigation from './Nav.svelte';
   import Slider from './Slider.svelte';
+  import SectionReviews from './SectionReviews.svelte';
   import LatestNews from './LatestNews.svelte';
   import LatestReviews from './LatestReviews.svelte';
   import ContentAds from './ContentAds.svelte';
@@ -12,6 +13,7 @@
 
 <Navigation />
 <Slider />
+<SectionReviews />
 
 
 <div class="layoutGrid">
@@ -85,10 +87,23 @@
         font-size: 1rem;
         }
 
-    .layoutGrid > div:nth-of-type(2) {
-        padding: 0 120px 0 20px;
-        }
-    .layoutGrid > div:nth-of-type(1){
-        min-width: 200px;
-        }
+.layoutGrid > div:nth-of-type(2) {
+    padding: 0 120px 0 20px;
+    }
+.layoutGrid > div:nth-of-type(1){
+    min-width: 200px;
+    }
+
+h2 {
+    font-size: 1.2rem;
+    color: #f5f5f5;
+    font-weight: 400;
+    line-height: 28px;
+}
+p {
+    font-size: 1rem;
+    font-weight: 100;
+    color: #a5a5a5;
+    line-height: 24px;
+}
 </style>
