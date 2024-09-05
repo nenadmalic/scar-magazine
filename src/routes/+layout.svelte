@@ -61,6 +61,19 @@
   font-size: 1rem;
 }
 
+:global(h2) {
+    font-size: 1.2rem;
+    color: #f5f5f5;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+:global(p) {
+    font-size: 1rem;
+    font-weight: 100;
+    color: #a5a5a5;
+    line-height: 24px;
+}
 @media screen and (max-width: 320px) {
   :global(html) {
     font-size: 10px; /* Smaller font size for very small screens */
@@ -94,16 +107,5 @@
     min-width: 200px;
     }
 
-h2 {
-    font-size: 1.2rem;
-    color: #f5f5f5;
-    font-weight: 400;
-    line-height: 28px;
-}
-p {
-    font-size: 1rem;
-    font-weight: 100;
-    color: #a5a5a5;
-    line-height: 24px;
-}
+
 </style>
