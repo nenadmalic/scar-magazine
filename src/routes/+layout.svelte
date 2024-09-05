@@ -67,6 +67,9 @@
     font-weight: 400;
     line-height: 28px;
 }
+:global(datetime) {
+    color: #656565;
+}
 
 :global(p) {
     font-size: 1rem;
