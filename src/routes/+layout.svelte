@@ -1,6 +1,6 @@
 <script>
   import Navigation from './Nav.svelte';
-  import Slider from './Slider.svelte';
+  import AboveTheFold from './SectionAboveTheFold.svelte';
   import SectionReviews from './SectionReviews.svelte';
   import LatestNews from './LatestNews.svelte';
   import LatestReviews from './LatestReviews.svelte';
@@ -12,7 +12,7 @@
 </script>
 
 <Navigation />
-<Slider />
+<AboveTheFold />
 <SectionReviews />
 
 
