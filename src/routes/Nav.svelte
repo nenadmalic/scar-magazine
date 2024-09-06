@@ -19,7 +19,8 @@
         justify-content: space-between; /* Distribute space between items */
         align-items: center; /* Align items vertically */
         font-size: 2rem;
-        padding: 1rem 1rem 2rem;
+        padding: 1rem 1rem 1.5rem;
+        background-color: white;
     }
 
     .nav-links {
