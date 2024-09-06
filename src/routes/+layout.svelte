@@ -1,18 +1,22 @@
 <script>
   import Navigation from './Nav.svelte';
-  import AboveTheFold from './SectionAboveTheFold.svelte';
+  import AboveTheFold from './AboveTheFold.svelte';
+  import SectionFrontpageNews from './backstage/SectionFrontpageNews.svelte';
   import SectionReviews from './SectionReviews.svelte';
   import LatestNews from './LatestNews.svelte';
   import LatestReviews from './LatestReviews.svelte';
   import ContentAds from './ContentAds.svelte';
+  import Grid from './GridLayoutBootstrap.svelte';
 
   export let data;
 
   const ads = data.props.ads;  
 </script>
 
+
 <Navigation />
 <AboveTheFold />
+<SectionFrontpageNews />
 <SectionReviews />
 
 
@@ -59,6 +63,7 @@
 
 :global(body) {
   font-size: 1rem;
+  background-color: black;
 }
 
 :global(h2) {
@@ -71,12 +76,14 @@
     color: #656565;
 }
 
+/*
 :global(p) {
     font-size: 1rem;
     font-weight: 100;
     color: #a5a5a5;
     line-height: 24px;
 }
+*/
 @media screen and (max-width: 320px) {
   :global(html) {
     font-size: 10px; /* Smaller font size for very small screens */
