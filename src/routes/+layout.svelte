@@ -75,6 +75,21 @@
 :global(datetime) {
     color: #656565;
 }
+:global(img) {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+:global(hr) {
+    width: 33px;
+    border: 2px solid #FECB00;
+    margin-left: 0;
+    margin-right: auto;
+}
+:global(p:first-of-type) {
+    color: #FECB00;
+}
 
 /*
 :global(p) {
