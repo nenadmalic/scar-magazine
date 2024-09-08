@@ -64,10 +64,11 @@
 :global(body) {
   font-size: 1rem;
   background-color: black;
+  border: 1rem solid white;
 }
 
 :global(h2) {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #f5f5f5;
     font-weight: 400;
     line-height: 28px;
@@ -84,12 +85,16 @@
 :global(hr) {
     width: 33px;
     border: 2px solid #FECB00;
-    margin-left: 0;
-    margin-right: auto;
+    margin: 0 auto 1rem 0;
 }
 :global(p:first-of-type) {
     color: #FECB00;
 }
+:global(.country-flag) {
+        width: 1.5rem;
+        height: auto; /* maintain aspect ratio */
+        flex-shrink: 0; /* prevent shrinking in flex containers */
+    }
 
 /*
 :global(p) {
@@ -101,36 +106,19 @@
 */
 @media screen and (max-width: 320px) {
   :global(html) {
-    font-size: 10px; /* Smaller font size for very small screens */
+    font-size: 1.25 rem; /* Smaller font size for very small screens */
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
   :global(html) {
-    font-size: 10px; /* Slightly larger font size for small to medium screens */
+    font-size: 1.25 rem; /* Slightly larger font size for small to medium screens */
   }
 }
 
 @media screen and (min-width: 769px) {
   :global(html) {
-    font-size: 16px; /* Original font size for larger screens */
+    font-size: 1 rem; /* Original font size for larger screens */
   }
 }
-
-.layoutGrid {
-        display: grid;
-        grid-template-columns: 20% 50% 30%;
-        /* column-gap: 10px; */
-        padding:0;
-        font-size: 1rem;
-        }
-
-.layoutGrid > div:nth-of-type(2) {
-    padding: 0 120px 0 20px;
-    }
-.layoutGrid > div:nth-of-type(1){
-    min-width: 200px;
-    }
-
-
 </style>
