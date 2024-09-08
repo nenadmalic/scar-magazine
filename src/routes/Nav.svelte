@@ -1,6 +1,10 @@
 <nav>
     <div>
-        <b>ScarMag</b> is screaming for vengeance! 🤘🏼 <!-- is where metal & monsters converge -->
+        <b>ScarMag</b> is screaming for vengeance! 🤘🏼
+        <!--
+        ...is where metal & monsters converge 
+        Into the ScarMag, Into the Grave.
+        -->
     </div>
     
 	<div class="nav-links">
@@ -19,7 +23,7 @@
         justify-content: space-between; /* Distribute space between items */
         align-items: center; /* Align items vertically */
         font-size: 2rem;
-        padding: 1rem 1rem 1.5rem;
+        padding: 1rem 0rem 1.5rem;
         background-color: white;
     }
 
