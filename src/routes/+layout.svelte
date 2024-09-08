@@ -7,7 +7,8 @@
   import LatestNews from './LatestNews.svelte';
   import LatestReviews from './LatestReviews.svelte';
   import ContentAds from './ContentAds.svelte';
-  import Grid from './GridLayoutBootstrap.svelte';
+  import SectionEvents from './SectionEvents.svelte';
+  import SectionMovies from './SectionMovies.svelte';
 
   export let data;
 
@@ -20,6 +21,8 @@
 <SectionFrontpageNews />
 <SectionInterviews />
 <SectionReviews />
+<SectionEvents />
+<SectionMovies />
 
 
 <div class="layoutGrid">
