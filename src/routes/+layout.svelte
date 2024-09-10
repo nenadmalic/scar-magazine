@@ -1,7 +1,7 @@
 <script>
   import Navigation from './Nav.svelte';
   import AboveTheFold from './AboveTheFold.svelte';
-  import SectionFrontpageNews from './backstage/SectionFrontpageNews.svelte';
+  import SectionFrontpageNews from './SectionNews.svelte';
   import SectionInterviews from './SectionInterviews.svelte';
   import SectionReviews from './SectionReviews.svelte';
   import LatestNews from './LatestNews.svelte';
@@ -68,7 +68,7 @@
 
 :global(body) {
   font-size: 1rem;
-  background-color: black;
+  background-color: white;
   border: 1rem solid white;
 }
 
