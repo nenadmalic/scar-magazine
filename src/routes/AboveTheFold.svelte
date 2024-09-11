@@ -5,19 +5,24 @@
         <div class="col-lg-2 col-md-6 col-sm-12">
             <div class="row mb-3">
                 <div class="col-12">
-                    <img src="https://label.napalmrecords.com/templates/yootheme/cache/fd/2022-satyricon-band-pic-web-fdc2da4d.webp" alt="Satyricon">
-                    <div class="mt-3 d-flex justify-content-between align-items-start">
-                        <p>SATYRICON</p>
-        
-                        <div class="country-flag ms-2 mt-0">
-                            <img src="/flags/norway.svg" alt="Flag of Norway" />
+                    <a href="interviews/moonspell">
+
+                        <img src="https://label.napalmrecords.com/templates/yootheme/cache/fd/2022-satyricon-band-pic-web-fdc2da4d.webp" alt="Satyricon">
+                        
+                        <div class="mt-3 d-flex justify-content-between align-items-start">
+                            <p>SATYRICON</p>
+            
+                            <div class="country-flag ms-2 mt-0">
+                                <img src="/flags/norway.svg" alt="Flag of Norway" />
+                            </div>
                         </div>
-                    </div>
-                    
-                    <hr />
-                    <h2 class="inter-light">Slipknot's clown is 'proud' of Gojira's performance at Olympic Games Opening Ceremony: 'I got goosebumps'
-                        <datetime>2 days ago</datetime>
-                    </h2>
+                        
+                        <hr />
+
+                        <h2 class="inter-light">Slipknot's clown is 'proud' of Gojira's performance at Olympic Games Opening Ceremony: 'I got goosebumps'
+                            <datetime>2 days ago</datetime>
+                        </h2>
+                    </a>
                 </div>
             </div>
             <div class="row">
