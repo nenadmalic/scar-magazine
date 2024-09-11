@@ -1,26 +1,15 @@
 <script>
-  export let data;
-  const news = data.props.news;
-  // console.log('Fetched news:', news);  // Debug log to check fetched data
+  import AboveTheFold from './AboveTheFold.svelte';
+  import SectionFrontpageNews from './SectionNews.svelte';
+  import SectionInterviews from './SectionInterviews.svelte';
+  import SectionReviews from './SectionReviews.svelte';
+  import SectionEvents from './SectionEvents.svelte';
+  import SectionMovies from './SectionMovies.svelte';
 </script>
 
-{#each news as n}
-  <article>
-  <h2>
-      <a href="{n.content_id}">{n.content_title}</a>
-      <!-- {n.content_title.replace(/\s+/g, '-')} // if you want to add title as url and replace its whitespace with dashes-->
-  </h2>
-  <div><strong>{n.content_category}</strong></div>
-  <div>{@html n.content_text}</div>
-  <div>Article ID: {n.content_id}</div>
-  </article>
-  <ul>
-    {#each n.content_tags as ct}
-      {#each ct.tags as tag}
-        <li>{tag.tag_name}</li>
-      {/each}
-    {/each}
-  </ul>
-
-  <hr/>
-{/each}
+<AboveTheFold />
+<SectionFrontpageNews />
+<SectionInterviews />
+<SectionReviews />
+<SectionEvents />
+<SectionMovies />
