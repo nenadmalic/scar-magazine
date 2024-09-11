@@ -1,7 +1,7 @@
-<div class="d-flex bg-white align-items-center text-black py-4 pb-4">
-    <img src="/skull-dark-purple.png" alt="Scar Skull" style="width:2.3rem;height:2.3rem;margin:0 0.5rem 0 0;">
+<div class="d-flex bg-white align-items-end text-black py-4 pb-1" style="min-height: 100px;">
+    <img src="/skull-dark-purple.png" alt="Scar Skull" style="width:2.3rem;height:2.3rem;margin:0 0.5rem 0.4rem 0;">
     <h1 class="me-3 mb-0"><b>Interviews</b></h1>
-    <div class="mb-0 text-black">Latest interview: Moonspell – Portuguese dark metal pioneers discuss their haunting "Memorial" album, creative evolution, and the vibrant Portuguese underground scene.</div>
+    <div class="pb-1 mb-0 text-black">Latest interview: Moonspell – Portuguese dark metal pioneers discuss their haunting "Memorial" album, creative evolution, and the vibrant Portuguese underground scene.</div>
 </div>
 
 <div class="container-fluid px-4 pb-5 pt-5 bgMain"> <!-- Background image layer. See <style> > .bgMain -->
