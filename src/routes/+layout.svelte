@@ -1,32 +1,20 @@
 <script>
   import Navigation from './Nav.svelte';
-  import AboveTheFold from './AboveTheFold.svelte';
-  import SectionFrontpageNews from './SectionNews.svelte';
-  import SectionInterviews from './SectionInterviews.svelte';
-  import SectionReviews from './SectionReviews.svelte';
-  import LatestNews from './LatestNews.svelte';
-  import LatestReviews from './LatestReviews.svelte';
-  import ContentAds from './ContentAds.svelte';
-  import SectionEvents from './SectionEvents.svelte';
-  import SectionMovies from './SectionMovies.svelte';
+  import LatestNews from './ScarskinLatestNews.svelte';
+  import LatestReviews from './ScarskinLatestReviews.svelte';
+  import ContentAds from './ScarskinContentAds.svelte';
 
   export let data;
 
   const ads = data.props.ads;  
 </script>
 
-
 <Navigation />
-<AboveTheFold />
-<SectionFrontpageNews />
-<SectionInterviews />
-<SectionReviews />
-<SectionEvents />
-<SectionMovies />
 
+<slot></slot>
 
 <div class="layoutGrid">
-    <div>
+    <div style="width: 200px;">
         <ContentAds {data} />
 
         {#each ads as a}
@@ -34,22 +22,11 @@
         {/each}
     </div>
     <div>
-        <slot></slot>
+        
     </div>
-    <div>
+    <div style="width: 550px;">
         <LatestNews {data} />
-
         <LatestReviews {data} />
-
-        <h3>Old nav</h3>
-        <ul>
-            <li><a href="https://vms.hr/scarskin/index.php">Novosti</a></li>
-            <li><a href="https://vms.hr/scarskin/hr/glazba/index.php">Glazba</a></li>
-            <li><a href="https://vms.hr/scarskin/hr/dogadaji/index.php">Dogadaji</a></li>
-            <li><a href="https://vms.hr/scarskin/hr/film/index.php">Film</a></li>
-            <li><a href="https://vms.hr/scarskin/hr/razgovor/index.php">Razgovor</a></li>
-            <li><a href="https://vms.hr/scarskin/hr/isplata.htm">Jel' se isplatilo?</a></li>
-        </ul>
     </div>
 </div>
 
@@ -58,10 +35,6 @@
 </footer>
 
 <style>
-/*
-    Old layout was 200px x 360px x 300px, with central column padding: 0 120px 0 20px.
-    Total width was 1000px, i.e 20% 50% 30%
-*/
 :global(html) {
   font-size: 16px; /* Base font size */
 }
@@ -78,6 +51,18 @@
     font-weight: 400;
     line-height: 28px;
 }
+:global(a) {
+    text-decoration: none;
+}
+:global(a:hover hr) {
+    width: 100%;
+    transition: width 0.3s ease-in-out;
+}
+
+:global(a hr) {
+    width: 33px;
+    transition: width 0.3s ease-in-out;
+}
 :global(datetime) {
     color: #656565;
 }
@@ -89,8 +74,9 @@
 
 :global(hr) {
     width: 33px;
-    border: 2px solid #FECB00;
+    border-top: 2px solid #FECB00;
     margin: 0 auto 1rem 0;
+    opacity: 100%;
 }
 :global(p:first-of-type) {
     color: #FECB00;
