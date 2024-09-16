@@ -1,19 +1,3 @@
-<div class="d-flex align-items-end bg-white text-black py-3 pb-1" style="
-        background-image: url('/skull/skull-zombie-8.webp');
-        background-repeat: no-repeat;
-        background-position: bottom 160% left -1.5%;
-        background-size: 140px;
-        padding-left: 100px;
-        min-height: 100px;
-    ">
-    <!--
-    <img src="/skull/skull-zombie-10.webp" alt="Scar Skull" style="width:2.3rem;height:2.3rem;margin:0 0.5rem 0 0;border:1px solid black">
-    -->
-    <h1 class="me-3 mb-0"><b>Movies</b></h1>
-    <div class="mb-0 text-black" style="padding-bottom: 0.2rem">Latest movie reviews: Moonspell – Portuguese dark metal pioneers discuss their haunting "Memorial" album, creative evolution, and the vibrant Portuguese underground scene.</div>
-</div>
-
-
 <div class="col-12 px-4 pb-5 pt-5 mx-auto" style="
     background-image: url('/zombie/zombie-girl-5.png');
     background-repeat: no-repeat;
