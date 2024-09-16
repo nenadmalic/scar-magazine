@@ -1,9 +1,3 @@
-<div class="d-flex align-items-center bg-white text-black py-4 pb-4">
-    <img src="/skull-dark-purple.png" alt="Scar Skull" style="width:2.3rem;height:2.3rem;margin:0 0.5rem 0 0;">
-    <h1 class="me-3 mb-0"><b>Reviews</b></h1>
-    <div class="mb-0 text-black">Latest review: Angelcorpse – Brutal riffs, haunting melodies, and relentless drumming define this new release.</div>
-</div>
-
 <div class="container-fluid px-4 pb-5 pt-5">
     <div class="row gx-5 mb-5">
         <div class="col-lg-5 col-md-12 col-sm-12">
