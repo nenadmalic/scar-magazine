@@ -1,26 +1,3 @@
-
-
-<div class="d-flex align-items-end text-black py-3 pb-1" style="
-        background-image: url('/skull/skull-screaming-4.webp');
-        background-repeat: no-repeat;
-        background-position: bottom 140% left -1%;
-        background-size: 140px;
-        padding-left:100px;
-        min-height: 100px;
-        z-index: 1;
-        position: relative;
-        ">
-    <!--
-    <img src="/skull/skull-screaming-2.webp" alt="Scar Skull" style="width:2.3rem;height:2.3rem;margin:0 0.5rem 0 0;border:1px solid black;object-fit:cover;object-position:center;transform:scale(1.5);">
-    -->
-    <h1 class="me-3 mb-0"><b>Events</b></h1>
-    <!--
-    <div class="mb-0 text-black">Latest event reviews: Moonspell – Portuguese dark metal pioneers discuss their haunting "Memorial" album, creative evolution, and the vibrant Portuguese underground scene.</div>
-    -->
-</div>
-
-
-
 <div class="container-fluid px-4 pb-5 pt-5 roundedBottom">
 
     <div class="row mb-5 justify-content-center">
@@ -75,7 +52,7 @@
         <div class="col-lg-5 col-md-6 col-sm-12">
             <div class="row mb-3">
                 <div class="col-4">
-                    <img src="https://media.nuclearblast.de/apps/media/lounge/foto/MachineHead2022a.jpg" alt="Machine Head" class="small-image">
+                    <img src="/machine-head-2022b.jpg" alt="Machine Head" class="small-image">
                 </div>
                 <div class="col-md-8 col-sm-12 col-lg-7">
                     <div class="d-flex justify-content-between align-items-start">
