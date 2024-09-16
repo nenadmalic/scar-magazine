@@ -69,7 +69,7 @@
         <div class="col-lg-5 col-md-6 col-sm-12">
             <div class="row mb-3">
                 <div class="col-4">
-                    <img src="https://media.nuclearblast.de/apps/media/lounge/foto/MachineHead2022a.jpg" alt="Machine Head" class="small-image">
+                    <img src="/machine-head-2022b.jpg" alt="Machine Head" class="small-image">
                 </div>
                 <div class="col-md-8 col-sm-12 col-lg-7">
                     <div class="d-flex justify-content-between align-items-start">
